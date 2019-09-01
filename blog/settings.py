@@ -25,7 +25,7 @@ SECRET_KEY = '^emxe_pfky=fgkhb(d7n$f_!v($2xulgt(fb2!j-4=hvr+#r7h'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '.heroku.com']
+ALLOWED_HOSTS = ['localhost', '.heroku.com', '.pythonanywhere.com']
 
 
 # Application definition
@@ -104,9 +104,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.0/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'pl'
 
-TIME_ZONE = 'Europe/Berlin'
+TIME_ZONE = 'Europe/Warsaw'
 
 USE_I18N = True
 
